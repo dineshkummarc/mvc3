@@ -20,7 +20,8 @@ namespace VidPub.Tests.Functionals {
 
         }
         string GetJson() {
-            var jsonFile = @"C:\@Tekpub\VidPub\Source\VidPub.Web\App_Data\ShopifyPing.js";
+            //var jsonFile = @"C:\@Tekpub\VidPub\Source\VidPub.Web\App_Data\ShopifyPing.js"; 
+            var jsonFile = System.AppDomain.CurrentDomain.BaseDirectory + @"\..\..\..\VidPub.Web\App_Data\ShopifyPing.js";
             var result = "";
             using (var stream = new StreamReader(jsonFile)) {
                 result = stream.ReadToEnd();

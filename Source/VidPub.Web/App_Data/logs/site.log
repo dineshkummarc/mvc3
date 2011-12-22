@@ -33,3 +33,71 @@ TargetSite :TSource First[TSource](System.Collections.Generic.IEnumerable`1[TSou
 09/12/2011 14:56:27: Hey - I called the Home page!
 09/12/2011 15:04:01: Hey - I called the Home page!
 09/12/2011 15:20:44: Hey - I called the Home page!
+12/22/2011 16:43:31: 
+Error in Path :/shopify/receiver
+Raw Url :/shopify/receiver
+Message :Invalid column name 'ProductID'.
+Source :.Net SqlClient Data Provider
+Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Massive.DynamicModel.Insert(Object o) in C:\Root\Dev\Projects\VidPub\Source\VidPub.Web\Infrastructure\Massive.cs:line 465
+   at VidPub.Web.Controllers.ShopifyController.Receiver() in C:\Root\Dev\Projects\VidPub\Source\VidPub.Web\Controllers\ShopifyController.cs:line 75
+TargetSite :Void OnError(System.Data.SqlClient.SqlException, Boolean)
+12/22/2011 16:43:45: 
+Error in Path :/shopify/receiver
+Raw Url :/shopify/receiver
+Message :Invalid column name 'ProductID'.
+Source :.Net SqlClient Data Provider
+Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Massive.DynamicModel.Insert(Object o) in C:\Root\Dev\Projects\VidPub\Source\VidPub.Web\Infrastructure\Massive.cs:line 465
+   at VidPub.Web.Controllers.ShopifyController.Receiver() in C:\Root\Dev\Projects\VidPub\Source\VidPub.Web\Controllers\ShopifyController.cs:line 75
+TargetSite :Void OnError(System.Data.SqlClient.SqlException, Boolean)
+12/22/2011 16:44:06: 
+Error in Path :/shopify/receiver
+Raw Url :/shopify/receiver
+Message :Invalid column name 'ProductID'.
+Source :.Net SqlClient Data Provider
+Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Massive.DynamicModel.Insert(Object o) in C:\Root\Dev\Projects\VidPub\Source\VidPub.Web\Infrastructure\Massive.cs:line 465
+   at VidPub.Web.Controllers.ShopifyController.Receiver() in C:\Root\Dev\Projects\VidPub\Source\VidPub.Web\Controllers\ShopifyController.cs:line 75
+TargetSite :Void OnError(System.Data.SqlClient.SqlException, Boolean)
+12/22/2011 16:44:06: 
+Error in Path :/shopify/receiver
+Raw Url :/shopify/receiver
+Message :Invalid column name 'ProductID'.
+Source :.Net SqlClient Data Provider
+Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Massive.DynamicModel.Insert(Object o) in C:\Root\Dev\Projects\VidPub\Source\VidPub.Web\Infrastructure\Massive.cs:line 465
+   at VidPub.Web.Controllers.ShopifyController.Receiver() in C:\Root\Dev\Projects\VidPub\Source\VidPub.Web\Controllers\ShopifyController.cs:line 75
+TargetSite :Void OnError(System.Data.SqlClient.SqlException, Boolean)
